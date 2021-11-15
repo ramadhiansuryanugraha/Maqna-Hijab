@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maqna Hijab | admin page</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/">
+    <link rel="stylesheet" href="style/dashboard.css">
+    <link rel="stylesheet" href="assets/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-light bg-pink">
+        <div class="container-fluid">
+            <!-- offcanvas triger -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <span class="navbar-toggler-icon" data-bs-target="#offcanvasExample"></span>
+              </button>
+            <!-- offcanvas triger -->              
+        </div>
+      </nav>
+    <!-- Navbar -->
+    <!-- Offcanvas -->      
+      <div class="offcanvas offcanvas-start sidebar-nav" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header mt-0 pb-0 mb-0 d-flex">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.png" alt="" width="40" height="40" class="d-inline-block align-text-top">
+                <span class="brand-text fw-bold">Maqna Hijab</span> 
+              </a>
+        </div><hr class="bg-dark">
+        <div class="offcanvas-body p-0">
+            <div class="user-panel mt-0 pb-0 mb-0 d-flex">
+                <div class="image ">
+                  <img src="assets/images/logo.png" class="img-circle elevation-2" alt="User Image">
+                </div>
+                <div class="info">
+                  <a href="#" class="d-block main-text "> Admin</a>
+                </div>
+              </div><hr class="bg-dark">
+            <nav class="mt-2">
+                <ul class="nav nav-pills nav-sidebar flex-column second-text">
+                  <li class="nav-item bg-pink">
+                    <a href="Dashboard.html" class="nav-link">
+                      <i class="nav-icon fas fa-tachometer-alt"></i>
+                      <span >Dashboard</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="order.html" class="nav-link">
+                    <i class="nav-icon fas fa-shopping-cart"></i>
+                      <span>Order</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="products.html" class="nav-link">
+                    <i class="nav-icon fas fa-boxes"></i>
+                      <span>Products</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="account.html" class="nav-link">
+                      <i class="nav-icon fas fa-user"></i>
+                      <span>Accounts</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">
+                      <i class="nav-icon fas fa-sign-out-alt"></i>
+                      <span>Log out</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+        </div>
+      </div>
+    <!-- Offcanvas -->
+      <main class="mt-0 pt-3">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 fw-bold">
+                    <h1 class="main-text fw-bold">Dashboard</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-info">
+                      <div class="inner">
+                        <h3>150</h3>
+        
+                        <p>New Orders</p>
+                      </div>
+                      <div class="icon">
+                        <i class="ion ion-bag"></i>
+                      </div>
+                      <a href="order.html" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                  </div>
+                  <!-- ./col -->
+                  <div class="col-lg-4 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-warning">
+                      <div class="inner">
+                        <h3>44</h3>
+        
+                        <p>User Registrations</p>
+                      </div>
+                      <div class="icon">
+                        <i class="ion ion-person-add"></i>
+                      </div>
+                      <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                  </div>
+                  <!-- ./col -->
+                  <div class="col-lg-4 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-danger">
+                      <div class="inner">
+                        <h3>65</h3>
+        
+                        <p>Users Make Order</p>
+                      </div>
+                      <div class="icon">
+                        <i class="ion ion-pie-graph"></i>
+                      </div>
+                      <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+      </main>
+
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="style/js/jquery-3.6.0.js"></script>
+    <script src="style/js/dashboard.js"></script>
+</body>
+</html>
