@@ -1,4 +1,4 @@
-# Maqna-Hijab
+# Maqna Hijab
 
 # Kelompok 4
 Saddam Aryo Cahyotomo (1313620011)
