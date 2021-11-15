@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,700;1,500;1,600&family=Noto+Sans+JP:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-main {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.text-second {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    background: whitesmoke;
+}
+
+.header {
+    width: auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    max-width: 850px;
+    width: 100%;
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    perspective: 2700px;
+}
+
+.container .cover {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 50%;
+    z-index: 98;
+    border-radius: 20px;
+    transition: all 1s ease;
+    transform-origin: left;
+    transform-style: preserve-3d;
+}
+
+.container #flip:checked~.cover {
+    transform: rotateY(-180deg);
+}
+
+.container .cover .front,
+.container .cover .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.cover .back {
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    border-radius: 20px;
+}
+
+.container .cover::before,
+.container .cover::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 12;
+}
+
+.container .cover::after {
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+.container .cover img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 10;
+    border-radius: 20px;
+}
+
+.container .kontenform {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container form {
+    height: 100%;
+    width: 100%;
+    background: #fff;
+}
+
+.kontenform .loginform,
+.kontenform .registerform {
+    width: calc(100% / 2 - 25px);
+}
+
+form .kontenform .judul {
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+}
+
+form .kontenform .judul:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 25px;
+    background: #FF69B4;
+}
+
+form .registerform .kontenform .judul:before {
+    width: 20px;
+}
+
+form .kontenform .inputan {
+    margin-top: 30px;
+}
+
+form .kontenform .kotakinput {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+}
+
+form .kontenform .login-text,
+form .kontenform .register-text {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.kontenform .kotakinput input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.kontenform .kotakinput input:focus,
+.kontenform .kotakinput input:valid {
+    border-color: white;
+}
+
+.kontenform .kotakinput i {
+    position: absolute;
+    color: #FF1493;
+    font-size: 17px;
+}
+.container #flip{
+    display: none;
+}
+form .kontenform .text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+
+form .kontenform .text a {
+    text-decoration: none;
+}
+
+form .kontenform .text a:hover {
+    text-decoration: underline;
+}
+
+form .kontenform .tombol {
+    color: #fff;
+    margin-top: 40px;
+}
+
+form .kontenform .tombol input {
+    color: #fff;
+    background: #FF1493;
+    border-radius: 6px;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+form .kontenform .tombol input:hover {
+    background: #5b13b9;
+}
+
+form .kontenform label {
+    color: #5b13b9;
+    cursor: pointer;
+}
+
+form .kontenform label:hover {
+    text-decoration: underline;
+}
+
+
+@media(max-width: 730px) {
+    .container .cover {
+        display: none;
+    }
+
+    .kontenform .loginform,
+    .kontenform .registerform {
+        width: 100%;
+    }
+
+    .kontenform .registerform {
+        display: none;
+    }
+
+    .container #flip:checked~form .loginform {
+        display: none;
+    }
+
+    .container #flip:checked~form .registerform {
+        display: block;
+    }
+
+    footer {
+		padding: 80px 0 20px 0;
+	}
+
+	.footer-items .footer-item {
+		margin-bottom: 1rem;
+	}
+
+	.footer-items .footer-item:last-child {
+		margin-bottom: 0;
+	}
+
+}
