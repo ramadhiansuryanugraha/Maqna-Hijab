@@ -21,4 +21,4 @@ Site Identity, Mockup Design, Client Presentation, Building Homepage Prototype, 
 
 Sprint 2: Login Page Backend, Catalogue Main Page Backend, Cart Main Page Backend, Payment Gateaway Main Page Backend.
 
-Sprint 3: Admin Product All Backend.
+Sprint 3: Admin Page Backend, Admin Login Page Backend, Admin Product Management Backend, Admin Account Management System Backend.
