@@ -24,3 +24,5 @@ Sprint 2: Login Page Backend, Catalogue Main Page Backend, Cart Main Page Backen
 Sprint 3: Admin Page Backend, Admin Login Page Backend, Admin Product Management Backend, Admin Account Management System Backend.
 
 Sprint 4: Menyelesaikan Semua Fitur Yang Dibutuhkan, Bug Fixing
+
+Sprint 5: Live hosting website
