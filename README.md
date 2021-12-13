@@ -15,6 +15,9 @@ http://maqnahijab.epizy.com/MAQNA-HIJAB/MAQNAHIJABADMINPAGE/adminlogin.php (Admi
 # Brief Description
 Aplikasi berbasis website Maqna Hijab dibuat untuk memberikan sebuah peningkatan layanan dari pihak Maqna Hijab. Hal ini ditujukan untuk memberikan kemudahan bagi para pelanggan untuk melihat dan membeli produk dari Maqna Hijab. Dari pihak Maqna Hijab tersendiri ingin memperluas jangkauan pasar dengan coba memasuki e-commerce dan ingin memudahkan pelanggan. Website ini juga disusun dengan tampilan yang memudahkan pelanggan dan pengelola website dalam melakukan penjelajahan di dalam website tersebut.
 
+# Primary Features
+Katalog, Cart, Admin
+
 # Current Progress
 Sprint 1:
 Site Identity, Mockup Design, Client Presentation, Building Homepage Prototype, Live Hosting.
