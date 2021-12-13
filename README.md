@@ -20,7 +20,9 @@ Katalog, Cart, Admin
 
 # Pembagian Tugas
 Ramadhian Surya Nugraha: Design Mockup, Main Page, Katalog, About Our Shop, Tata Cara Pembayaran, Hosting Website 
+
 Saddam Aryo Cahyotomo  : Cart, Product Detail, Konfirmasi Pembayan, Login Register User, Checkout Product
+
 Boban Anderson         : Dashboard Admin, Product Management, Account Management, Order Management, Login Admin Page
 
 
@@ -34,4 +36,4 @@ Sprint 3: Admin Page Backend, Admin Login Page Backend, Admin Product Management
 
 Sprint 4: Menyelesaikan Semua Fitur Yang Dibutuhkan, Bug Fixing
 
-Sprint 5: Live hosting website
+Sprint 5: Live Hosting Website, Bug Fixing
