@@ -18,6 +18,12 @@ Aplikasi berbasis website Maqna Hijab dibuat untuk memberikan sebuah peningkatan
 # Primary Features
 Katalog, Cart, Admin
 
+# Pembagian Tugas
+Ramadhian Surya Nugraha: Design Mockup, Main Page, Katalog, About Our Shop, Tata Cara Pembayaran, Hosting Website 
+Saddam Aryo Cahyotomo  : Cart, Product Detail, Konfirmasi Pembayan, Login Register User, Checkout Product
+Boban Anderson         : Dashboard Admin, Product Management, Account Management, Order Management, Login Admin Page
+
+
 # Current Progress
 Sprint 1:
 Site Identity, Mockup Design, Client Presentation, Building Homepage Prototype, Live Hosting.
