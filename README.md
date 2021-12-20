@@ -38,7 +38,7 @@ Sprint 4: Menyelesaikan Semua Fitur Yang Dibutuhkan, Bug Fixing
 
 Sprint 5: Live Hosting Website, Bug Fixing
 
-Sprinnt 6: Bug Fixing, Client Presentation
+Sprinnt 6: Bug Fixing, Client Presentation, Making User & Admin Manual How to Use Application
 
 # User & Admin Manual How to Use Application
 User Manual
