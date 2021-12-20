@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,700;1,500;1,600&family=Noto+Sans+JP:wght@100;300;400;500;700&display=swap');
+.brand-text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    color: black;
+}
+.bg-pink{
+    background-color:  #FF90D4;
+ }
+.main-text{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.second-text{
+    font-family:'Noto Sans JP', sans-serif;
+}
+hr{
+	border: none;
+	height: 1px;
+}
+.navbar{
+    height: 69px;
+}
+:root{
+    --offcanvas-width: 250px; 
+}
+.admin-photo{
+    height: 45px;
+    width: 45px;
+}
+.sidebar-nav{
+    width: var(--offcanvas-width);
+}
+.nav-link{
+    color: black;
+
+}
+.nav-sidebar>.nav-item .nav-icon {
+	margin-left: .05rem;
+	font-size: 1.2rem;
+	margin-right: .2rem;
+	text-align: center;
+	width: 1.6rem
+}
+.offcanvas-header{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.nav-sidebar>.nav-item .nav-icon.fa,
+.nav-sidebar>.nav-item .nav-icon.fab,
+.nav-sidebar>.nav-item .nav-icon.far,
+.nav-sidebar>.nav-item .nav-icon.fas,
+.nav-sidebar>.nav-item .nav-icon.glyphicon,
+.nav-sidebar>.nav-item .nav-icon.ion {
+	font-size: 1.1rem
+}
+.user-panel {
+	position: relative
+}
+
+
+.user-panel,
+.user-panel .info {
+	overflow: hidden;
+	white-space: nowrap
+}
+
+.user-panel .image {
+	display: inline-block;
+	padding-left: .8rem
+}
+
+.user-panel img {
+	height: auto;
+	width: 2.1rem
+}
+
+.user-panel .info {
+	display: inline-block;
+	padding: 5px 5px 5px 10px
+}
+
+.user-panel .dropdown-menu,
+.user-panel .status {
+	font-size: .875rem
+}
+
+@media (min-width:992px) {
+    .body{
+        overflow: auto !important;
+    }
+    .offcanvas-backdrop::before{
+        display: none;
+    }
+    main{
+        margin-left: var(--offcanvas-width);
+    }
+    .sidebar-nav{
+        transform: none;
+        visibility: visible !important;
+    }
+}
+.small-box {
+	border-radius: .25rem;
+	box-shadow: 0 0 1px rgba(0, 0, 0, .125), 0 1px 3px rgba(0, 0, 0, .2);
+	display: block;
+	margin-bottom: 20px;
+	position: relative
+}
+
+.small-box>.inner {
+	padding: 10px
+}
+
+.small-box>.small-box-footer {
+	background: rgba(0, 0, 0, .1);
+	color: rgba(255, 255, 255, .8);
+	display: block;
+	padding: 3px 0;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	z-index: 10
+}
+.small-box p {
+	font-size: 1rem
+}
+
+.small-box p>small {
+	color: #f8f9fa;
+	display: block;
+	font-size: .9rem;
+	margin-top: 5px
+}
+
+.small-box h3,
+.small-box p {
+	z-index: 5
+}
+
+.small-box .icon {
+	color: rgba(0, 0, 0, .15);
+	z-index: 0
+}
+
+.small-box .icon>i {
+	font-size: 90px;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	transition: all .3s linear
+}
+
+.small-box .icon>i.fa,
+.small-box .icon>i.fab,
+.small-box .icon>i.far,
+.small-box .icon>i.fas,
+.small-box .icon>i.glyphicon,
+.small-box .icon>i.ion {
+	font-size: 70px;
+	top: 20px
+}
