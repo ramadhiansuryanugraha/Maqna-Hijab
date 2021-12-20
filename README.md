@@ -41,8 +41,8 @@ Sprint 5: Live Hosting Website, Bug Fixing
 Sprinnt 6: Bug Fixing, Client Presentation, Making User & Admin Manual How to Use Application
 
 # User & Admin Manual How to Use Application
-User Manual
+(User Manual)
 [User Manual.pdf](https://github.com/ramadhiansuryanugraha/Maqna-Hijab/files/7743012/User.Manual.pdf)
 
-Admin Manual
+(Admin Manual)
 [Admin Manual.pdf](https://github.com/ramadhiansuryanugraha/Maqna-Hijab/files/7743015/Admin.Manual.pdf)
