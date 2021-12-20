@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,700;1,500;1,600&family=Noto+Sans+JP:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-main {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.text-second {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    background: whitesmoke;
+}
+
+.header {
+    width: auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    perspective: 2700px;
+}
+
+.container .kontenform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container form {
+    height: 100%;
+    width: 100%;
+    background: #fff;
+}
+
+.kontenform .loginform{
+    width: 350px;
+}
+
+.kontenform .loginform .logomaqna{
+    text-align: center;
+    justify-content: center;
+}
+
+form .kontenform .judul {
+    position: relative;
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+}
+
+form .kontenform .judul:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 25px;
+    background: #fff;
+}
+
+form .registerform .kontenform .judul:before {
+    width: 20px;
+}
+
+form .kontenform .inputan {
+    margin-top: 30px;
+}
+
+form .kontenform .kotakinput {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+}
+
+form .kontenform .login-text{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.kontenform .kotakinput input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.kontenform .kotakinput input:focus,
+.kontenform .kotakinput input:valid {
+    border-color: white;
+}
+
+.kontenform .kotakinput i {
+    position: absolute;
+    color: #FF1493;
+    font-size: 17px;
+}
+.container #flip{
+    display: none;
+}
+form .kontenform .text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+
+form .kontenform .text a {
+    text-decoration: none;
+}
+
+form .kontenform .text a:hover {
+    text-decoration: underline;
+}
+
+form .kontenform .tombol {
+    color: #fff;
+    margin-top: 40px;
+}
+
+form .kontenform .tombol input{
+    color: #fff;
+    background: #FF1493;
+    border-radius: 6px;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    
+}
+
+
+form .kontenform .tombol input:hover{
+    background: #5b13b9;
+}
+
+form .kontenform label {
+    color: #5b13b9;
+    cursor: pointer;
+}
+
+form .kontenform label:hover {
+    text-decoration: underline;
+}
+
+
+@media(max-width: 730px) {
+    .container .cover {
+        display: none;
+    }
+
+    .kontenform .loginform,
+    .kontenform .registerform {
+        width: 100%;
+    }
+
+    .kontenform .registerform {
+        display: none;
+    }
+
+    .container #flip:checked~form .loginform {
+        display: none;
+    }
+
+    .container #flip:checked~form .registerform {
+        display: block;
+    }
+
+    footer {
+		padding: 80px 0 20px 0;
+	}
+
+	.footer-items .footer-item {
+		margin-bottom: 1rem;
+	}
+
+	.footer-items .footer-item:last-child {
+		margin-bottom: 0;
+	}
+
+}
