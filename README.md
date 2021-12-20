@@ -37,3 +37,5 @@ Sprint 3: Admin Page Backend, Admin Login Page Backend, Admin Product Management
 Sprint 4: Menyelesaikan Semua Fitur Yang Dibutuhkan, Bug Fixing
 
 Sprint 5: Live Hosting Website, Bug Fixing
+
+Sprinnt 6: Bug Fixing, Client Presentation
