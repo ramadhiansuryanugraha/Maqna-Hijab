@@ -30,16 +30,6 @@ Boban Anderson         : Dashboard Admin, Product Management, Account Management
 Sprint 1:
 Site Identity, Mockup Design, Client Presentation, Building Homepage Prototype, Live Hosting.
 
-Sprint 2: Login Page Backend, Catalogue Main Page Backend, Cart Main Page Backend, Payment Gateaway Main Page Backend.
-
-Sprint 3: Admin Page Backend, Admin Login Page Backend, Admin Product Management Backend, Admin Account Management System Backend.
-
-Sprint 4: Menyelesaikan Semua Fitur Yang Dibutuhkan, Bug Fixing
-
-Sprint 5: Live Hosting Website, Bug Fixing
-
-Sprinnt 6: Bug Fixing, Client Presentation, Making User & Admin Manual How to Use Application
-
 # User & Admin Manual How to Use Application
 (User Manual)
 [User Manual.pdf](https://github.com/ramadhiansuryanugraha/Maqna-Hijab/files/7743012/User.Manual.pdf)
