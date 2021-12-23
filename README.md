@@ -19,7 +19,7 @@ Aplikasi berbasis website Maqna Hijab dibuat untuk memberikan sebuah peningkatan
 Katalog, Cart, Admin
 
 # Pembagian Tugas
-Ramadhian Surya Nugraha: Design Mockup, Main Page, Katalog, About Our Shop, Tata Cara Pembayaran, Hosting Website 
+Ramadhian Surya Nugraha: Design Mockup, Main Page, Katalog, About Our Shop, Tata Cara Pembayaran, Hosting Website
 
 Saddam Aryo Cahyotomo  : Cart, Product Detail, Konfirmasi Pembayan, Login Register User, Checkout Product
 
@@ -34,11 +34,11 @@ Sprint 2: Login Page Backend, Catalogue Main Page Backend, Cart Main Page Backen
 
 Sprint 3: Admin Page Backend, Admin Login Page Backend, Admin Product Management Backend, Admin Account Management System Backend.
 
-Sprint 4: Menyelesaikan Semua Fitur Yang Dibutuhkan, Bug Fixing
+Sprint 4: Menyelesaikan Semua Fitur Yang Dibutuhkan, Bug Fixing.
 
-Sprint 5: Live Hosting Website, Bug Fixing
+Sprint 5: Live Hosting Website, Bug Fixing.
 
-Sprinnt 6: Bug Fixing, Client Presentation, Making User & Admin Manual How to Use Application
+Sprinnt 6: Bug Fixing, Making User & Admin Manual How to Use Application, User Testing Record, Web Demonstration.
 
 # User & Admin Manual How to Use Application
 (User Manual)
