@@ -47,9 +47,10 @@ Sprinnt 6: Bug Fixing, Client Presentation, Making User & Admin Manual How to Us
 (Admin Manual)
 [Admin Manual.pdf](https://github.com/ramadhiansuryanugraha/Maqna-Hijab/files/7743015/Admin.Manual.pdf)
 
-# Web Explanation & Client Review
+# Web Explanation
 Video Link: https://www.youtube.com/watch?v=Q5Vh620kEZY
 
+# Client Review
 Response regarding the front page: All good and accordance with the mockup design.
 
 Response of the primary function: Everything is complete and accordance with client request.
