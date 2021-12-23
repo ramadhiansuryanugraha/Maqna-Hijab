@@ -13,7 +13,7 @@ http://maqnahijab.epizy.com (Main Page)
 http://maqnahijab.epizy.com/MAQNAHIJABADMINPAGE (Admin Page)
 
 # Brief Description
-Aplikasi berbasis website Maqna Hijab dibuat untuk memberikan sebuah peningkatan layanan dari pihak Maqna Hijab. Hal ini ditujukan untuk memberikan kemudahan bagi para pelanggan untuk melihat dan membeli produk dari Maqna Hijab. Dari pihak Maqna Hijab tersendiri ingin memperluas jangkauan pasar dengan coba memasuki e-commerce dan ingin memudahkan pelanggan. Website ini juga disusun dengan tampilan yang memudahkan pelanggan dan pengelola website dalam melakukan penjelajahan di dalam website tersebut.
+Aplikasi berbasis website Maqna Hijab dibuat untuk memberikan sebuah peningkatan layanan dari pihak Maqna Hijab. Hal ini ditujukan untuk memberikan kemudahan bagi para pelanggan untuk melihat dan membeli produk dari Maqna Hijab. Tiara Marshanda Andrian (Client) dari pihak Maqna Hijab tersendiri ingin memperluas jangkauan pasar dengan coba memasuki e-commerce dan ingin memudahkan pelanggan. Website ini juga disusun dengan tampilan yang memudahkan pelanggan dan pengelola website dalam melakukan penjelajahan di dalam website tersebut. Maka kami kelompok 4, yang terdiri dari Saddam Aryo Cahyotomo, Boban Anderson, dan Ramadhian Surya Nugraha ingin membantu client dalam membuat website tersebut.
 
 # Primary Features
 Katalog, Cart, Admin
@@ -47,7 +47,7 @@ Sprinnt 6: Bug Fixing, Client Presentation, Making User & Admin Manual How to Us
 (Admin Manual)
 [Admin Manual.pdf](https://github.com/ramadhiansuryanugraha/Maqna-Hijab/files/7743015/Admin.Manual.pdf)
 
-# Web Demonstration
+# Website Demonstration
 Video Link: https://www.youtube.com/watch?v=Q5Vh620kEZY
 
 # Client Review
