@@ -47,6 +47,9 @@ Sprinnt 6: Bug Fixing, Client Presentation, Making User & Admin Manual How to Us
 (Admin Manual)
 [Admin Manual.pdf](https://github.com/ramadhiansuryanugraha/Maqna-Hijab/files/7743015/Admin.Manual.pdf)
 
+# Record of User (Client) Website Testing
+Video Link: https://www.youtube.com/watch?v=EWRevp5y7EM
+
 # Website Demonstration
 Video Link: https://www.youtube.com/watch?v=Q5Vh620kEZY
 
