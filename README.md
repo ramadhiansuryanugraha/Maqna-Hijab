@@ -50,6 +50,10 @@ Sprint 6: Bug Fixing, Making User & Admin Manual How to Use Application, User Te
 # Record of User (Client) Website Testing
 Video Link: https://www.youtube.com/watch?v=EWRevp5y7EM
 
+Subtitle (.md): [subtitle user testing record.md](https://github.com/ramadhiansuryanugraha/Maqna-Hijab/files/7773643/subtitle.user.testing.record.md)
+
+Subtitle (.pdf): [Subtitle User Testing Record_Group 4th.pdf](https://github.com/ramadhiansuryanugraha/Maqna-Hijab/files/7773647/Subtitle.User.Testing.Record_Group.4th.pdf)
+
 # Website Demonstration
 Video Link: https://www.youtube.com/watch?v=Q5Vh620kEZY
 
